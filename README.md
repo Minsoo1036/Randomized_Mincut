@@ -13,4 +13,4 @@ However, in the experiments, Edge-based shows more reasonable solution of mincut
 Karger-Stein Algorithm also depends on the algorithm of contraction.
 and it comes to be efficient algorithm when applied to boosting framework.
 
-When the success probability of boosting is 1-1/n, Kargers Algorithm takes O(V^3 E log(V) ) and Karger-Stein Algorithm takes O(V^2 log(V)^3 ).
+When the success probability of boosting is 1-1/n and it comes to be edge-based, Kargers Algorithm takes O(V^3 E log(V) ) and Karger-Stein Algorithm takes O(V^2 log(V)^3 ).
