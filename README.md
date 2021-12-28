@@ -7,7 +7,7 @@ One is implementing the contraction by sampling two nodes randomly.**(node-based
 Another one is implementing the contraction by sampling one existing edge randomly and selecting the corresponding nodes.**(edge-based)**
 
 Edge-based is the original version of Kargers Algorithm.
-But it has the time complexity O(VE), rather than O(V^2) which Node-based takes.
+But it has the time complexity **O(VE)**, rather than **O(V^2)** which Node-based takes.
 However, in the experiments, Edge-based shows more reasonable solution of mincut compared to Node-based.
 
 Karger-Stein Algorithm also depends on the algorithm of contraction.
