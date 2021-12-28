@@ -13,6 +13,7 @@ However, in the experiments, Edge-based shows more reasonable solution of mincut
 Karger-Stein Algorithm also depends on the algorithm of contraction.
 and it comes to be efficient algorithm when applied to boosting framework.
 
-When the success probability of boosting is 1-1/n and it comes to be edge-based, Kargers Algorithm takes O(V^3 E log(V) ) and Karger-Stein Algorithm takes O(V^2 log(V)^3 ).
+When the success probability of boosting is 1-1/n and it comes to be edge-based, Kargers Algorithm takes **O(V^3 E log(V) )** and Karger-Stein Algorithm takes **O(V^2 log(V)^3 ).**
+Furthermore, the state-of-the-art deterministic min-cut algorithm (Stoer-Wagner) takes **O(VE+V^2 log(V) ).** So Karger-Stein Algorithm can obtain gain when the graph is dense.
 
-the code is based on R.
+The code is based on **R**.
