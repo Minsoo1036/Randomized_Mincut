@@ -1,5 +1,5 @@
 # randomized_mincut
-Karges Algorithm and Karger-Steian Algorithm
+Karges Algorithm and Karger-Stein Algorithm
 
 
 I implement the algorithms in two ways corresponding to the contraction implementations.
