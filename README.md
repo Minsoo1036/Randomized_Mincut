@@ -3,8 +3,8 @@ Karges Algorithm and Karger-Steian Algorithm
 
 
 I implement the algorithms in two ways corresponding to the contraction implementations.
-One is implementing the contraction by sampling two nodes randomly.(node-based)
-Another one is implementing the contraction by sampling one existing edge randomly and selecting the corresponding nodes.(edge-based)
+One is implementing the contraction by sampling two nodes randomly.**(node-based)**
+Another one is implementing the contraction by sampling one existing edge randomly and selecting the corresponding nodes.**(edge-based)**
 
 Edge-based is the original version of Kargers Algorithm.
 But it has the time complexity O(VE), rather than O(V^2) which Node-based takes.
