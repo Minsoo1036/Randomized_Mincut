@@ -1,4 +1,4 @@
-# randomized_mincut
+# Randomized_Mincut
 Karges Algorithm and Karger-Stein Algorithm
 
 
